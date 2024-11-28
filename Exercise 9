@@ -1,0 +1,10 @@
+geometry = int(input("Enter Geometry grade: "))
+algebra = int(input("Enter Algebra grade: "))
+physics = int(input("Enter Physics grade: "))
+average_score = (geometry + algebra + physics) / 3
+if average_score > 7:
+    print("Good Job!")
+if 4 < average_score < 6:
+    print("You need to work harder!")
+if average_score < 4:
+    print("Failed, you really need to work harder!")
