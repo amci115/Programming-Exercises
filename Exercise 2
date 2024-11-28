@@ -1,0 +1,11 @@
+try: #base 1 - this will run if it doesn't produce an error
+
+    geometry = int(input("input grade for geometry"))
+    algebra = int(input("input grade for algebra"))
+    physics = int(input("input grade for physics"))
+
+    average_score = (geometry + algebra + physics) / 3
+    print(f"average score is : {average_score}")
+
+except Exception as error:#base 2 this will run if there is an error
+    print(f'the code has failed with error : {error}')
