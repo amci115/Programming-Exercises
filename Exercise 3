@@ -1,0 +1,6 @@
+bitcoin_value = int(input("Enter value of bitcoin at the time of purchase: "))
+percentage_increase = int(input("Enter percentage increase/decrease: "))
+bitcoin_increase_value = (percentage_increase) / 100
+total_bitcoin_value = bitcoin_value + (bitcoin_value * bitcoin_increase_value)
+print(f"Your current bitcoin value is: {total_bitcoin_value}") #always use f strings if you're ever using a variable
+print(f"The value of the increase is : {total_bitcoin_value - bitcoin_value}") #to address a variable always use curly braces
