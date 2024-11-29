@@ -1,0 +1,9 @@
+years_employed = int(input('Enter number of years employed: '))
+number_of_children = int(input('Enter number of children of employee: '))
+days_missed = int(input('Enter number of days employee has missed: '))
+total_amount = 400 + (20 * years_employed) + (30 * number_of_children)
+if days_missed == 0:
+    total_amount += 100
+    print(f'The total amount is {total_amount}. 400$ minimum wage + {(20 * years_employed)}$ for {years_employed} years employed and {(30 * number_of_children)}$ for {number_of_children} kids and $100 for not missing a day of work')
+else:
+    print(f'The total amount is {total_amount}. 400$ minimum wage + {(20 * years_employed)}$ for {years_employed} years employed and {(30 * number_of_children)}$ for {number_of_children} kids')
