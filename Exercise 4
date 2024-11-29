@@ -1,0 +1,6 @@
+try:
+    height = int(input("Enter height: "))
+    width = int(input("Enter width: "))
+    print(f'total area is {height * width}')
+except Exception as error:
+    print(f"an error occurred as {error}")
