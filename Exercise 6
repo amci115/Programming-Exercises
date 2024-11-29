@@ -1,0 +1,5 @@
+laptop_price = int(input("Enter price of laptop"))
+tax_percentage = int(input("Enter tax percentage"))
+new_price = laptop_price * ((tax_percentage / 100) + 1)
+rounded_price = round(new_price, 2)
+print(f'The total price of the laptop is {rounded_price}')
