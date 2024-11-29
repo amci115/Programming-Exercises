@@ -1,0 +1,5 @@
+total_budget = int(input("Enter total budget: "))
+bitcoin_price = int(input("Enter value of Bitcoin: "))
+ethereum_price = int(input("Enter value of Ethereum: "))
+litecoin_price = int(input("Enter value of Litecoin: "))
+print(f'With {total_budget} you can buy: {total_budget//bitcoin_price} Bitcoin, {total_budget//ethereum_price} Etherium and {total_budget//litecoin_price} Litecoin')
